@@ -1,0 +1,173 @@
+/* Universal Rules */
+button {
+  color: white;
+  background: red;
+}
+.fab {
+  color: red;
+  position: relative;
+  z-index: 5;
+}
+
+/* Header */
+.header li,
+.header a {
+  display: inline;
+  text-decoration: none;
+  color: white;
+  padding-right: 5px;
+}
+.header h1 {
+  /* margin-left: 430px; */
+  font-size: 27px;
+}
+.header ul {
+  position: relative;
+  top: 7px;
+}
+
+.header ul li {
+  margin-right: 5px;
+  border-right: 1px;
+  border-right-style: solid;
+  border-right-color: white;
+}
+
+.header ul li a:hover {
+  color: #460000;
+}
+
+.header #remove {
+  border-right: none;
+}
+.header {
+  background: #aa0000;
+  color: white;
+}
+
+/* Hero */
+.hero {
+  color: white;
+  text-align: center;
+  background-image: url("../media/terry-vlisidis-WsEbnsnKbUE-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.hero .fab:hover {
+  color: red;
+}
+
+.hero .fab {
+  padding: 0px 5px;
+  color: white;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  padding-top: 1%;
+}
+
+.hero a {
+  size: 30px;
+}
+.hero ul {
+  padding-left: 0px;
+  padding-top: 30px;
+}
+.hero li {
+  list-style: none;
+  size: 30px;
+  display: inline;
+  padding-top: 25px;
+}
+
+.hero img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+/* About Me */
+
+.about-me {
+  background: #460000;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.about-me button:hover {
+  color: red;
+  background-color: white;
+}
+.about-me button {
+  border-radius: 5px;
+}
+
+/* Projects */
+
+.projects {
+  background: #2e0000;
+  color: white;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.projects h3 {
+  padding-top: 18px;
+  color: red;
+}
+
+.projects h2 {
+  padding-bottom: 28px;
+}
+.projects_2 {
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+.projects button {
+  border-radius: 5px;
+}
+.projects button:hover {
+  color: red;
+  background-color: white;
+}
+
+/* Footer */
+.footer {
+  background-color: red;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer ul {
+  padding-left: 0;
+}
+
+.footer ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer .fas {
+  padding-right: 8px;
+}
+
+/* Copyright */
+.copyright {
+  background-color: #460000;
+  color: white;
+  padding-top: 10px;
+}
+
+.copyright p {
+  display: flex;
+  justify-content: center;
+}
